@@ -14,5 +14,6 @@ def fizzbuzz(num)
   
   if sodaPop == ""
     return nil
+  end
     
 end
