@@ -2,16 +2,17 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   
-  sodaPop = "FizzBuzz"
+  sodaPop = ""
   
   if (num % 3 == 0)
-    return "Fizz"
-  elsif (num % 5 == 0)
-    return "Buzz"
-  elsif (num % 3 == 0 && num  % 5 == 0)
-    return "FizzBuzz"
-  else 
-    return nil
+    sodaPop = "Fizz"
   end
+  
+  if (num % 5 == 0)
+    sodaPop += "Buzz"
+  end
+  
+  if sodaPop == ""
+    return nil
     
 end
