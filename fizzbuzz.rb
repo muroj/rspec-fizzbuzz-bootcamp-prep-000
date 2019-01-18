@@ -12,6 +12,6 @@ def fizzbuzz(num)
     sodaPop += "Buzz"
   end
   
-  return sodaPop !== "" ? sodaPop : nil
+  return sodaPop != "" ? sodaPop : nil
   
 end
